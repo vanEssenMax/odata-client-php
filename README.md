@@ -2,18 +2,15 @@
 
 A fluent library for calling OData REST services inspired by and based on the [Laravel Query Builder](https://laravel.com/docs/5.4/queries).
 
-*This library is currently in preview. Please continue to provide [feedback](https://github.com/saintsystems/odata-client-php/issues/new) as we iterate towards a production-supported library.*
+*This library is a fork of `saintsystems/odata-client`. The maintainer seems to have abandoned the repo. We will maintain this fork and accept new PR's*
 
-[![Build Status](https://img.shields.io/travis/saintsystems/odata-client-php/master.svg?style=flat-square)](https://travis-ci.org/saintsystems/odata-client-php)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/saintsystems/odata-client)
-[![Total Downloads](https://img.shields.io/packagist/dt/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/saintsystems/odata-client)
-
-For WordPress users, please see our [Gravity Forms Dynamics 365 Add-On](https://www.saintsystems.com/products/gravity-forms-dynamics-crm-add-on/).
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
+[![Total Downloads](https://img.shields.io/packagist/dt/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
 
 ## Install the SDK
 You can install the PHP SDK with Composer.
 ```
-composer require saintsystems/odata-client
+composer require justbetter/odata-client
 ```
 ### Call an OData Service
 
@@ -74,7 +71,7 @@ Run ```vendor/bin/phpunit``` from the base directory.
 
 ## Issues
 
-View or log issues on the [Issues](https://github.com/saintsystems/odata-client-php/issues) tab in the repo.
+View or log issues on the [Issues](https://github.com/justbetter/odata-client-php/issues) tab in the repo.
 
 ## Copyright and license
 
