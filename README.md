@@ -4,8 +4,8 @@ A fluent library for calling OData REST services inspired by and based on the [L
 
 *This library is a fork of `saintsystems/odata-client`. The maintainer seems to have abandoned the repo. We will maintain this fork and accept new PR's*
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
-[![Total Downloads](https://img.shields.io/packagist/dt/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/justbetter/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
+[![Total Downloads](https://img.shields.io/packagist/dt/justbetter/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
 
 ## Install the SDK
 You can install the PHP SDK with Composer.
