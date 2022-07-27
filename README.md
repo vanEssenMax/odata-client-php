@@ -7,6 +7,8 @@ A fluent library for calling OData REST services inspired by and based on the [L
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/justbetter/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
 [![Total Downloads](https://img.shields.io/packagist/dt/justbetter/odata-client.svg?style=flat-square)](https://packagist.org/packages/justbetter/odata-client)
 
+Looking for a way to interact with Microsoft Dynamics? Checkout our [Laravel Dynamics Client](https://github.com/justbetter/laravel-dynamics-client)!
+
 ## Install the SDK
 You can install the PHP SDK with Composer.
 ```
