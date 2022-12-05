@@ -322,6 +322,19 @@ class Grammar implements IGrammar
     }
 
     /**
+     * Compile a date where clause.
+     *
+     * @param Builder $query
+     * @param array   $where
+     *
+     * @return string
+     */
+    protected function whereDate(Builder $query, $where)
+    {
+        return $where['column'].' '.$this->getOperatorMapping($where['operator']).' '.$where['value'];
+    }
+
+    /**
      * Compile a where clause comparing two columns.
      *
      * @param  Builder $query
