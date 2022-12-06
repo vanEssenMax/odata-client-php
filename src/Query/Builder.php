@@ -596,7 +596,7 @@ class Builder
 
     public function orWhereDate($column, $operator = null, $value = null)
     {
-        return $this->where($column, $operator, $value, 'or');
+        return $this->whereDate($column, $operator, $value, 'or');
     }
 
     /**
